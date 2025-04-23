@@ -61,7 +61,7 @@ if activity_filter:
 if person_type_filter:
     filtered_df = filtered_df[filtered_df["PersonType"].isin(person_type_filter)]
 
-# Colunas específicas do seu caso
+
 event_column = "DefaultStatus"         # coluna binária: 0 ou 1
 probability_column = "CreditScore"     # coluna de score
 event_value = "Inadimplente"
