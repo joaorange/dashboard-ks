@@ -39,7 +39,7 @@ def graph_ks(df, event_column, probability_column, event_value, non_event_value)
     return fig
 
 # Leitura do CSV
-df = pd.read_csv("customer_database_case_study.csv")
+df = pd.read_csv("customer_database_case_study_tratado.csv")
 
 # Filtros interativos
 st.sidebar.title("Filtros")
